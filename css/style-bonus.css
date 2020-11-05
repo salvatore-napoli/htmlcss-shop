@@ -34,9 +34,22 @@ header .edge {
 
 .item {
   width: 33%;
+  height: 372px;
   display: inline-block;
   position: relative;
-  background-color: #eee;
+  background-size: cover;
+}
+
+.row .item:first-of-type {
+  background-image: url("../img/pd1.jpg");
+}
+
+.item:first-child + .item {
+  background-image: url("../img/pd2.jpg");
+}
+
+.row .item:last-child {
+  background-image: url("../img/pd3.jpg");
 }
 
 .discount {
