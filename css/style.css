@@ -15,10 +15,9 @@
 
 .item {
   width: 33%;
-  height: 300px;
-  background-color: red;
   display: inline-block;
   position: relative;
+  background-color: #eee;
 }
 
 .discount {
@@ -26,4 +25,8 @@
   top: 0;
   right: 0;
   background-color: green;
+}
+
+.row .item:nth-child(2) .discount{
+  background-color: red;
 }
