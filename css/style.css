@@ -3,3 +3,27 @@
   padding: 0;
   box-sizing: border-box;
 }
+
+.row {
+  margin-bottom: 20px;
+}
+
+.container {
+  margin: 0 auto;
+  width: 1000px;
+}
+
+.item {
+  width: 33%;
+  height: 300px;
+  background-color: red;
+  display: inline-block;
+  position: relative;
+}
+
+.discount {
+  position: absolute;
+  top: 0;
+  right: 0;
+  background-color: green;
+}
