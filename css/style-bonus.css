@@ -63,3 +63,10 @@ header .edge {
 .item:hover .favourite {
   display: block;
 }
+
+footer .edge {
+  border-top: 5px dashed grey;
+  padding-left: 85%;
+  font-size: 20px;
+  bottom: 0;
+}
